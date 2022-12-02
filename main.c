@@ -208,8 +208,6 @@ int main(int argc, char *argv[]) {
         printf("open %s success, fd = %d.\n", path, fd);
     }
     set_port(fd, 115200, 8, 'N', 1);
-    /* config port */
-    // config_port(fd, B9600);
 
     /* write data to port */
 //    length = write_port(fd, send_string, sizeof(send_string));
